@@ -11,3 +11,6 @@ input:focus{
   outline-color: aqua;
   
 }
+.btn-block{
+  text-align: center;
+}
