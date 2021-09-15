@@ -9,12 +9,36 @@
   </head>
   <body>
     <form action="#">
-      <input type="text" placeholder="User name" />
-      <label
-        ><span> password </span>
+      <label><span>First name</span>
+        <input autofocus 
+               type="text" 
+               placeholder="First name" 
+               name="FirstName"
+               required
+               autocomplete="username"
+               >
+      </label> 
+      <label><span>Last name</span>
+        <input autofocus 
+               type="text" 
+               placeholder="Last name" 
+               name="LastName"
+               required
+               >
+      </label>
+      <label><span>Email</span>
+        <input autofocus 
+               type="text" 
+               placeholder="Email"
+               name="email"
+               required 
+               autocomplete="email"
+               >
+      </label>             
+      <label><span> password </span>     
         <input type="password" />
       </label>
-      <input type="submit" value="" />
+      <input type="submit" value="submit" />
     </form>
   </body>
 </html>
