@@ -1,0 +1,13 @@
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100px;
+  max-width: 300px;
+  margin: auto;
+  
+}
+input:focus{
+  outline-color: aqua;
+  
+}
